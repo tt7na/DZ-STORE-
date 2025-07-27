@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  ,<title >DZ STORE </title>
+    <title>DZ STORE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * {
@@ -63,6 +63,7 @@
             color: rgba(255, 255, 255, 0.9);
             font-size: 16px;
             margin-bottom: 20px;
+            line-height: 1.6;
         }
         
         .links-container {
@@ -103,11 +104,13 @@
         .whatsapp { color: #25D366; }
         .twitter { color: #1DA1F2; }
         .youtube { color: #FF0000; }
+        .phone { color: #4CAF50; }
         
         .footer {
             padding: 20px;
             color: rgba(255, 255, 255, 0.7);
             font-size: 14px;
+            text-align: center;
         }
         
         @media (max-width: 480px) {
@@ -136,34 +139,39 @@
     <div class="container">
         <div class="profile-header">
             <!-- صورة المتجر الجديدة -->
-            <img src="1750746456573.png" alt="شعار المتجر" class="profile-img">
+            <img src="1750746456573.png" alt="شعار المتجر" class="profile-img" onerror="this.src='https://via.placeholder.com/150/4ecdc4/ffffff?text=DZ+STORE'">
             
             <!-- اسم المتجر -->
             <div class="store-name">DZ STORE</div>
-            <div class="store-description">مرحبا بكم في متجرنا .... نووورتوناااا</div>
+            <div class="store-description">مرحبا بكم في متجرنا ... نورتونا</div>
         </div>
         
         <div class="links-container">
             <!-- الروابط -->
-            <a href="https://www.instagram.com/d_2z?igsh=cXUzY2RraWV4bTBp&utm_source=qr" class="link-button instagram">
+            <a href="https://tt7na.github.io/DZ_Store/" class="link-button website" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-shopping-cart"></i>
+                زيارة المتجر الإلكتروني
+            </a>
+            
+            <a href="https://www.instagram.com/d_2z?igsh=cXUzY2RraWV4bTBp&utm_source=qr" class="link-button instagram" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-instagram"></i>
                 تابعنا على إنستقرام
             </a>
             
-          
-            
-        
-            
-            <a href="https://chat.whatsapp.com/DYNUkpkmDeC5PFKhWeYKkF?mode=ac_t" class="link-button whatsapp">
+            <a href="https://chat.whatsapp.com/DYNUkpkmDeC5PFKhWeYKkF?mode=ac_t" class="link-button whatsapp" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-whatsapp"></i>
-                تواصل عبر الواتساب
+                الدعم الفني على الواتساب
             </a>
             
-         
-            
-            <a href="https://www.youtube.com/@Dz.store.1" class="link-button youtube">
+            <a href="https://www.youtube.com/@Dz.store.1" class="link-button youtube" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-youtube"></i>
                 قناة يوتيوب
+            </a>
+            
+            <!-- تواصل عبر الهاتف -->
+            <a href="tel:+96879265188" class="link-button phone">
+                <i class="fas fa-phone"></i>
+                الدعم عبر الاتصال
             </a>
         </div>
     </div>
