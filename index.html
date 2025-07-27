@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ,<title >DZ STORE </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            direction: rtl;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+        
+        .profile-header {
+            padding: 40px 20px 20px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+        
+        .store-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .store-description {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .links-container {
+            padding: 30px 20px;
+        }
+        
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            color: #333;
+            padding: 18px 25px;
+            margin: 12px 0;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid #f0f0f0;
+        }
+        
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            background: #f8f9fa;
+        }
+        
+        .link-button i {
+            margin-left: 12px;
+            font-size: 20px;
+        }
+        
+        .instagram { color: #E1306C; }
+        .facebook { color: #4267B2; }
+        .website { color: #28a745; }
+        .whatsapp { color: #25D366; }
+        .twitter { color: #1DA1F2; }
+        .youtube { color: #FF0000; }
+        
+        .footer {
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .store-name {
+                font-size: 24px;
+            }
+            
+            .link-button {
+                padding: 15px 20px;
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <!-- صورة المتجر الجديدة -->
+            <img src="1750746456573.png" alt="شعار المتجر" class="profile-img">
+            
+            <!-- اسم المتجر -->
+            <div class="store-name">DZ STORE</div>
+            <div class="store-description">مرحبا بكم في متجرنا .... نووورتوناااا</div>
+        </div>
+        
+        <div class="links-container">
+            <!-- الروابط -->
+            <a href="https://www.instagram.com/d_2z?igsh=cXUzY2RraWV4bTBp&utm_source=qr" class="link-button instagram">
+                <i class="fab fa-instagram"></i>
+                تابعنا على إنستقرام
+            </a>
+            
+          
+            
+        
+            
+            <a href="https://chat.whatsapp.com/DYNUkpkmDeC5PFKhWeYKkF?mode=ac_t" class="link-button whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                تواصل عبر الواتساب
+            </a>
+            
+         
+            
+            <a href="https://www.youtube.com/@Dz.store.1" class="link-button youtube">
+                <i class="fab fa-youtube"></i>
+                قناة يوتيوب
+            </a>
+        </div>
+    </div>
+    
+    <div class="footer">
+        © 2024 جميع الحقوق محفوظة لـ DZ STORE
+    </div>
+</body>
+</html>
